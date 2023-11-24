@@ -34,7 +34,10 @@ public class Hamburger {
         addition4Price = price;
     }
 
-
+    public double itemizeHamburger() {
+        System.out.println(this);
+        return price + addition1Price + addition2Price + addition3Price + addition4Price;
+    }
 
     @Override
     public String toString() {
