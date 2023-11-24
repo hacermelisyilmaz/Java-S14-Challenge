@@ -1,11 +1,11 @@
 package com.workintech.burger;
 
 public class DeluxeBurger extends Hamburger{
-    public DeluxeBurger(String meat, String breadRollType) {
-        super("Deluxe Burger", meat, breadRollType);
+    public DeluxeBurger() {
+        super("Deluxe Burger", 19.910, String.valueOf(com.workintech.burger.breadRollType.DOUBLE_SANDWICH));
+        setMeat("Double");
         setAddition1Name("chips");
         setAddition2Name("drink");
-        setPrice(19.90);
     }
 
     @Override
